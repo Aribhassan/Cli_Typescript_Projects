@@ -1,10 +1,12 @@
 {
   "name": "arib_atm_machine",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "",
   "main": "index.js",
   "type": "module",
-  "bin": "index.js",
+  "bin": {
+    "arib_atm_machine": "Atm.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
